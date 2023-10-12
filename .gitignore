@@ -1,0 +1,69 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore build output
+build/
+dist/
+
+# Ignore environment files
+.env
+
+# Ignore logs and various build and package files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.pem
+*.pid
+*.seed
+*.swo
+*.swp
+*.zip
+*.tar.gz
+*.tar.xz
+*.gem
+*.rvmrc
+*.rvmrc.backup
+.rbenv-*
+.rbenv
+.env.local
+
+# Ignore editor specific files/directories
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+ehthumbs_vista.db
+*.DS_Store?
+*.Spotlight-V100
+*.Trashes
+Icon?
+ehthumbs??.db
+
+# Ignore npm-debug.log and yarn-debug.log
+npm-debug.log
+yarn-debug.log
+
+# Ignore Yarn Integrity file
+.yarn-integrity
+
+# Ignore ESLint cache
+.eslintcache
+
+# Ignore local .env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore yarn error log
+.yarn-error.log
